@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import functional as F
 torch.manual_seed(1337)
 
-with open('All_txt_HP.txt', 'r', encoding = 'utf-8') as f:
+with open('text/All_txt_HP.txt', 'r', encoding ='utf-8') as f:
     text = f.read()
 
 print("length of dataset in characters :", len(text))
