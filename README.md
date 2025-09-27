@@ -58,6 +58,7 @@ After just **5,000 iterations**🏋 :
 
 **🔍 Preliminary Results:**  
 With only 5,000 iterations (~4h GPU 💻🔥), the model starts producing French-like words (though not meaningful sentences yet).
+
 ---
 
 ## ⚙️ How it works
