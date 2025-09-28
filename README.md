@@ -84,7 +84,9 @@ Here is a cool schema I found ! It is a realy clear explanation of the different
 ## 📂 Repository structure  
 ```bash
 ├── img/           # For the README.md
+│
 ├── text/          # Training corpora (Victor Hugo, Harry Potter, …)
+│
 ├── Bigram.py      # Bigram model + first experiments  
 ├── LICENSE
 ├── README.md
@@ -96,10 +98,10 @@ Here is a cool schema I found ! It is a realy clear explanation of the different
 Clone the repository and install dependencies:  
 ```bash
 git clone https://github.com/Thibault-GAREL/Language_Models.git
-cd Language_Models
-pip install torch
-# install with Cuda:
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+sudo apt-get update
+sudo apt-get install liballegro5-dev
+# It is for Linux 🐧 !
+# For macOS 🍎 / Windows 🪟, consult the documentation
 ```
 
 Next, you can use Bigram Model :
