@@ -69,7 +69,7 @@ With only 5,000 iterations (~4h GPU 💻🔥), the model starts producing French
 - 📦 Process text into **blocks** (context windows) and **batches**
 - 🏗️ Implement a **Bigram Language Model**
 - 🚀 Train the model using **PyTorch** (`AdamW` optimizer)
-- ✨ Generate new text sequences and have fun 😆 !!!
+  - ✨ Generate new text sequences and have fun 😆 !!!
 
 ## 🗺️ Schema 
 Here you can find the schema of a Transformer Model :
@@ -93,16 +93,16 @@ Here is a cool schema I found ! It is a realy clear explanation of the different
 ├── Transformer.py # Full Transformer implementation  
 ```
 
----
-## 💻 Run it on Your PC  
-Clone the repository and install dependencies:  
-```bash
-git clone https://github.com/Thibault-GAREL/Language_Models.git
-sudo apt-get update
-sudo apt-get install liballegro5-dev
-# It is for Linux 🐧 !
-# For macOS 🍎 / Windows 🪟, consult the documentation
-```
+    ---
+    ## 💻 Run it on Your PC  
+    Clone the repository and install dependencies:  
+    ```bash
+    git clone https://github.com/Thibault-GAREL/Language_Models.git
+    sudo apt-get update
+    sudo apt-get install liballegro5-dev
+    # It is for Linux 🐧 !
+    # For macOS 🍎 / Windows 🪟, consult the documentation
+    ```
 
 Next, you can use Bigram Model :
 ```bash
@@ -121,3 +121,6 @@ This project is based on:
 - 🎥 [Andrej Karpathy – Let's build GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)  
 - 📄 The scientific paper ["Attention is All You Need"](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need) 
 - 🧠 OpenAI’s GPT-2 / GPT-3 and [nanoGPT](https://github.com/karpathy/nanoGPT)  
+
+
+Code created by me 😎, Thibault GAREL - [Github](https://github.com/Thibault-GAREL)
